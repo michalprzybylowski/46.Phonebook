@@ -29,12 +29,7 @@ namespace Phonebook
             {
                 Console.WriteLine("Select what do you want to do(Add, ShowAll, ShowContact, SearchContact, Quit ):");
                 string Menu = Console.ReadLine().ToLower();
-                switch (Menu)
-                {
-                    case "add":
-                        addNewContact(contacts);
-                        break;
-                }
+
                     
 
                 if (Menu == "add")
